@@ -1,0 +1,11 @@
+targets:
+- cookies:
+    "X-COOKIE-KEY": "VALUE"
+  url: "http://example.com/something_here"
+  omniture_variables: 
+    "VARIABLE_NAME": "VARIABLE_VALUE"
+- cookies:
+    "X-COOKIE-KEY": "VALUE"
+  url: "http://example.com/something_here"
+  omniture_variables: 
+    "VARIABLE_NAME": "VARIABLE_VALUE"
