@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/omnitiure_test/version', __FILE__)
+require File.expand_path('../lib/omniture_test/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["rdecunrex"]
   gem.email         = ["rdecurnex@despegar.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Rspec Test for Omniture Integrations}
+  gem.summary       = %q{Rspec Test for Omniture Integrations}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -17,5 +17,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'rake'
   gem.add_dependency 'rspec'
+  gem.add_dependency 'json'
   gem.add_dependency 'watir-webdriver'
 end

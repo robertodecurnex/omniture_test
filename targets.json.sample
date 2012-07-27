@@ -1,0 +1,22 @@
+{
+  "targets": [
+    {
+      "cookies": {
+        "X-COOKIE-KEY": "VALUE"
+      },
+      "url": "http://example.com/something_here",
+      "omniture_variables": {
+        "EXPECTED_VARIABLE_NAME": "VARIABLE_EXPECTED_VALUE"
+      }
+    },
+    {
+      "cookies": {
+        "X-COOKIE-KEY": "VALUE"
+      },
+      "url": "http://example.com/something_here",
+      "omniture_variables": {
+        "EXPECTED_VARIABLE_NAME": "VARIABLE_EXPECTED_VALUE"
+      }
+    },
+  ]
+}

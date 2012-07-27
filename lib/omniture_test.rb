@@ -1,6 +1,6 @@
 require "omniture_test/version"
 
-ENV['OMNITURE_TEST_PATH'] = "#{__FILE__}/.."
+ENV['OMNITURE_TEST_PATH'] = File.expand_path(File.dirname(__FILE__)) + "/.."
 
 module OmnitureTest
   
