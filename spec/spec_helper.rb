@@ -1,5 +1,6 @@
 require 'watir-webdriver'
 require 'yaml'
+require 'json'
 
 abort "Defina el ./targets.yml o el ./targets.json
 
